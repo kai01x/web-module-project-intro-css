@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+/*font-family: 'Sansita Swashed', cursive;*/
+
+html{
+  font-size:72.5%;
+  font-family: 'Amatic SC', cursive;
+  background:url(http://www.allwhitebackground.com/images/2/2278.jpg);
+}
+.container1{
+  margin:0 auto;
+  width:70%;
+  margin-top:10px;
+  box-sizing:border-box;
+  background-position:center;  
+  height:60vh;
+  
+}
+h1{
+  font-size:50px;
+}
+
+header{
+  width:100%;
+  text-align:center;
+  text-shadow:1px 1px white;
+}
+
+nav{
+  alignment:center;
+  color:red;
+  font-size:2.5rem;
+  border:3px solid black;
+  border-radius:10px;
+  padding:5px;
+  display:inline-block;
+  margin-top:-15px;
+  transition:.3s;
+}
+
+nav:hover{
+  
+  display:inline-flex;
+  background:white;
+  color:black;
+}
+
+.image1{
+  border-size:5px;
+  border-radius:250px;
+  width:250px;
+  height:250px;
+}
+.image2{
+  border-size:5px; 
+  width:50px;
+  height:50px;
+}
+.image3{
+  border-size:5px;
+  width:100px;
+  height:auto;
+}
