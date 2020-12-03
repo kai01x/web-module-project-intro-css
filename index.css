@@ -26,7 +26,7 @@ header{
 }
 
 nav{
-  alignment:center;
+  
   color:red;
   font-size:2.5rem;
   border:3px solid black;
@@ -45,18 +45,15 @@ nav:hover{
 }
 
 .image1{
-  border-size:5px;
   border-radius:250px;
   width:250px;
   height:250px;
 }
-.image2{
-  border-size:5px; 
+.image2{ 
   width:50px;
   height:50px;
 }
 .image3{
-  border-size:5px;
   width:100px;
   height:auto;
 }
