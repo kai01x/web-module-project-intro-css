@@ -1,19 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
-/*font-family: 'Sansita Swashed', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import
+url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
 
 html{
   font-size:72.5%;
-  font-family: 'Amatic SC', cursive;
+ font-family: 'Chelsea Market', cursive;
   background:url(http://www.allwhitebackground.com/images/2/2278.jpg);
 }
+
+
 .container1{
   margin:0 auto;
   width:70%;
-  margin-top:10px;
   box-sizing:border-box;
   background-position:center;  
-  height:60vh;
-  
+  height: 30vh;
+  border-radius:20px;
+}
+
+.container2{
+  margin:0 auto;
+  box-sizing:border-box;
+}
+
+.container3{
+  margin:0 auto;
+  width:70%;
+  box-sizing:border-box;
+  background-position:center;  
+  height: 30vh;
+  border-radius:20px;
+}
+
+.maintextbody{
+  background:#DDB9A3;
+  background-size:100%;
+  margin:0 auto;
+  border:2px solid black;
+}
+
+p{
+  font-family:'Roboto Mono', monospace;
+  font-size:25px;
 }
 h1{
   font-size:50px;
@@ -25,35 +53,97 @@ header{
   text-shadow:1px 1px white;
 }
 
-nav{
-  
-  color:red;
-  font-size:2.5rem;
-  border:3px solid black;
-  border-radius:10px;
-  padding:5px;
-  display:inline-block;
-  margin-top:-15px;
-  transition:.3s;
+footer{
+  text-align:center;
+  background:#F9E7DC;
+  height:0 auto;
+  background-size:100%;
+
 }
 
-nav:hover{
+.button {
+  background-color:white;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.b1{
+  background-color: black; 
+  color: white; 
+  border: 2px orange;
+  border-radius:15px;
+  margin:20px;
+}
+
+.b1:hover{
+  background:orange;
   
-  display:inline-flex;
-  background:white;
-  color:black;
+}
+
+.b2{
+  background-color:black;
+  color:white;
+  border:2px cyan;
+  border-radius:15px;
+  margin:20px;
+}
+
+.b2:hover{
+  background:cyan;
+  
+}
+
+.b3{
+  background-color:black;
+  color:white;
+  border:2px magenta;
+  border-radius:15px;
+  margin:20px;
+}
+
+.b3:hover{
+  background:#FFD700;
+
 }
 
 .image1{
+  border-size:5px;
   border-radius:250px;
   width:250px;
   height:250px;
 }
-.image2{ 
-  width:50px;
-  height:50px;
+.image2{
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height:auto;
 }
 .image3{
-  width:100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
   height:auto;
+}
+.image4{
+  margin:0 auto;
+  width: 100%;
+  height: auto;
+}
+
+nav{
+  display:block;
+  text-align:center;
+  background:#F9E7DC;
+  height:0 auto;
+  background-size:100%;
 }
